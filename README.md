@@ -1,5 +1,4 @@
 
-
 # 🚀 Frontend Development with Purple Beard
 
 ## Info

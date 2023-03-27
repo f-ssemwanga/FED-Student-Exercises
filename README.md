@@ -13,6 +13,7 @@ Cohort: FEDXXX
 
 ## Projects I have worked on
 
-- [link](https://url.com)
-- [link](https://url.com)
+- [link](https://brandcolors.net/)
+- [link](https://www.youtube.com/@Hyperplexed/videos)
+https://www.youtube.com/@Fireship
 - [link](https://url.com)

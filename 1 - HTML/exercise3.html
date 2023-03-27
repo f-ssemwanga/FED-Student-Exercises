@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Message Submission Form</title>
+    <link rel="stylesheet" href="assets/css/formStyle.css">
   </head>
   <body>
     <h1>Message Submission Form </h1>
@@ -18,24 +19,24 @@
         <legend>Personal Details</legend>
         <label for="fullName"
           >Enter your Name:
-          <input required type="text" id="fullName" name="fullName"
+          <input  type="text" id="fullName" name="fullName" required
         /></label>
 
         <label for="email">
           Enter your Email:
-          <input required type="email" name="email" id="email"
+          <input type="email" name="email" id="email" required
         /></label>
 
         <label for="address"
           >Enter your Address:
           <textarea
-            required
+            
             type="text"
             name="address"
             id="address"
             rows="4"
             cols="50"
-            maxlength="200"
+            maxlength="200" required
           ></textarea>
         </label>
       </fieldset>
@@ -44,17 +45,18 @@
         <label for="message"
           >Enter your message here:
           <textarea
-            required
+            
             type="text"
             name="message"
             id="message"
-            rows="4"
+            rows="10"
             cols="50"
-            maxlength="200"
+            maxlength="200" required
           ></textarea>
         </label>
       </fieldset>
-      <input type="submit" value="Submit" />
+       <button type="submit">Submit Form</button>
+       <button type="reset">Reset Form</button>
     </form>
   </body>
 </html>

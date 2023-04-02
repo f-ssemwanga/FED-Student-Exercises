@@ -6,12 +6,12 @@
     --paddingXlarge:calc(var(--paddingLarge)*2);
 }
 
-
-
 *{
     margin: 0;
     padding:0;
 }
+
+/* Exercise 1 - set color, font size and font type */
 body{
     font-size:var(--paddingBaseline);
     font-family: 'Montserrat', sans-serif;
@@ -32,6 +32,7 @@ a, a:visited, a:hover, a:active{
 
 }
 
+/* Exercise 2 - set hover effects */
 a:hover{
     background-color: aqua;
     color: black;

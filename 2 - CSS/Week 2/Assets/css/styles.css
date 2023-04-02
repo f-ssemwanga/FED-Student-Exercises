@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+:root{
+    --paddingBaseline:14px;
+    --paddingMedium:calc(var(--paddingBaseline)*1.25);
+    --paddingLarge:calc(var(--paddingMedium)*1.25);
+    --paddingXlarge:calc(var(--paddingLarge)*2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    /* background-color: #24252a; */
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(0, 7, 12);
+    font-size: var(--paddingBaseline);
+    
+}
+
+
+li,a, button{
+    font-size: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: var(--paddingBaseline);
+    color:#ecf0f1;
+    text-decoration: none;
+
+}
+/* target header  */
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height:100px;
+    padding: var(--paddingBaseline);
+    background-color: #1e212c;
+   
+    
+    
+   
+} 
+#brand{
+    cursor: pointer;
+    height: 60px;
+    margin-right: auto;
+    
+}
+#brand img{
+    height:100%;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left:var(--paddingXlarge);
+
+}
+
+/* target individual nav links */
+.navLinks li{
+    padding: 0 var(--paddingLarge)
+} 
+.navLinks li a button{
+    transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover{
+    color:#0088a9;
+    text-decoration: none;
+
+}
+.nlink.active a{
+    color:#43c5d1
+}
+button{
+    background-color:rgba(0,136,169,1);
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+    width:80px;
+   
+   
+    
+}
+button:hover{
+    background-color:rgba(0,136,169,0.8);
+    
+
+}
+/* Exercise ends here */
+/* Just messing around now with content */
+ main{
+    padding: var(--paddingBaseline);
+    display: flex;
+    align-content: center;
+
+} 
+section{
+    flex-basis:50%;
+    text-align: justify;
+    margin:0 var(--paddingBaseline);
+}

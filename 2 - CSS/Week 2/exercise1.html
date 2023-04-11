@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/modal_stylesheet.css">
     <title>Modal Window Example</title>
+   
 </head>
 <body>
     <header>
         <h1>Modal Window</h1>
     </header>
-    
+    <main>
+        <button id="modalTrigger" class="button">Click Here</button>
+        
+        <div id="popUp">
+            <div id="message">
+                <span id="closeBtn" class="closeBtn">&times;</span>
+                <h2>My Modal window</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita harum, doloremque suscipit, cumque minima porro pariatur maiores dolores aperiam quos placeat inventore, voluptatibus dolorum voluptas corrupti fugit dolore reiciendis ducimus!</p>
+            </div>
+        </div>
+    </main>
+   <script src="assets/javascript/modalController.js"></script>
 </body>
 </html>

@@ -20,3 +20,7 @@ console.log(`The sum of ${num1} + ${num2} = ${num1+num2}`);
 
 
 frm.addEventListener('submit')
+
+// official solution
+console.log(2+2)
+

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap');
+
+/* define required variables */
+:root{
+  
+    --font-fam: 'Inter', sans-serif;;
+}
+
+
+body{
+    background-color: black;
+    color:azure;
+    font-size: 2em;
+    font-family: var(--font-fam);
+}
+input {
+  padding: 8px;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  border: 2px solid gray;
+  outline: none;
+}
+#convertBtn {
+  padding: 8px 16px;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 0.5em;
+}
+
+#convertBtn:hover {
+  background-color: #0062cc;
+}
+#bookOutput{font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    padding:.5em;
+    border: 2px solid gray;
+    background-color: rgb(187, 190, 197);
+    color:black;
+    height:50px;
+    font-size:1.2em;
+    margin-top:5px;
+}
+#container{
+display: grid;
+height:50vh;
+grid-template-columns: 0.3fr 0.5fr 1.5fr 1fr;
+grid-template-rows:0.3fr 0.15fr 0.3fr 0.3fr;
+grid-template-rows: 200px 150px 50px 70px;
+grid-template-areas: 
+"title title title title title"
+"inputLabel inputLabel titleInput spacer spacer"
+"convertBtn convertBtn spacer3 spacer3 spacer3"
+"convertedTitle convertedTitle convertedTitle spacer2 spacer2"
+/* "convertBtn convertBtn spacer1 spacer1 spacer1" */
+
+;
+align-items: center;
+grid-row-gap: 20px;
+}
+#appTitle{grid-area: title;}
+#inputLabel{grid-area: inputLabel;}
+#titleInput{grid-area:titleInput;font-size:1.5em;}
+button#convertBtn{grid-area:convertBtn;}
+#bookOutput{grid-area:convertedTitle;}
